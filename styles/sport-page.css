@@ -1,0 +1,99 @@
+
+.page-content > .sports-content-wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: unset;
+}
+.page-content > .sports-content-wrapper > .side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.page-content > .sports-content-wrapper > .side-by-side > .schedule-wrapper > .schedule-container {
+    width: 75%;
+}
+
+.page-content > .sports-content-wrapper > .side-by-side > .schedule-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.page-content > .side-by-side > .schedule-wrapper > .schedule-container > .schedule > tr, th, td {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+.side-by-side > .schedule-wrapper > .schedule-container > .schedule th {
+    border-bottom: 1px solid black;
+}
+.side-by-side > .schedule-wrapper > .schedule-container > .schedule {
+    background-color: #ffffffcc;
+    border: 2px solid black;
+    border-spacing: 0px;
+    border-radius: 3px;
+}
+
+.side-by-side > .schedule-wrapper > .schedule-container > .schedule > tbody > .home {
+    background-color: #3a3b3b9c;
+}
+.side-by-side > .schedule-wrapper > .schedule-container > .schedule-title {
+    background-color: #ffffffcc;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+.side-by-side {
+    margin-top: 30px;
+}
+
+.page-content > .sports-content-wrapper > .side-by-side > .sport-news-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.page-content > .sports-content-wrapper > .side-by-side > .sport-news-wrapper > .sport-news {
+    width: 75%;
+}
+
+.page-content > .sports-content-wrapper > .side-by-side > .sport-news-wrapper > .sport-news > .sport-news-header {
+    background-color: #ffffffcc;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.page-content > .sports-content-wrapper > .side-by-side > .sport-news-wrapper > .sport-news > .sport-story {
+    background-color: #ffffffcc;
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.page-content > .sports-content-wrapper > .sport-roster-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.page-content > .sports-content-wrapper > .sport-roster-wrapper > .roster-contents {
+    background-color: #ffffffcc;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    padding: 10px 175px;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+    border-radius: 1px;
+}
+
+.page-content > .sports-content-wrapper > .sport-roster-wrapper > .roster-contents > .roster-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.page-content > .sports-content-wrapper > .sport-roster-wrapper > .roster-contents > .roster-list li{
+    padding-top: 5px;
+}

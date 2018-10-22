@@ -1,0 +1,19 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: #f0efef;
+    height: 100px;
+    width: 100%;
+}
+
+.footer > .footer-left {
+    background-color: #222222
+}
+.footer > .footer-right {
+    border-top-width: 2px;
+    border-top-style: inset;
+    border-top-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
